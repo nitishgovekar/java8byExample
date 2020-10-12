@@ -11,7 +11,6 @@ public class AllMatchDemo2 {
 		//Checks whether the first character is in UpperCase or Not
 		boolean result = list.stream().allMatch(s->Character.isUpperCase(s.charAt(0)));
 		System.out.println(result);
-		
 	}
 
 }

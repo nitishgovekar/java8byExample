@@ -10,7 +10,6 @@ public class AllMatchDemo1 {
 		List<String> list = Arrays.asList("Virat","Rohit","Dhoni");
 		//returns whether all elements of this stream match the provided predicate
 		boolean result = list.stream().allMatch(s ->s.contains("i"));
-
 		System.out.println(result);
 	} 
 
